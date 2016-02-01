@@ -4,13 +4,14 @@ Extract Turnover, Gross & Net profit data from [KashFlow accounting](http://kash
 
 Uses KashFlow API Ruby Wrapper: https://github.com/pogodan/kashflow
 
+*Partly written as an exercise in learning Ruby, improvement suggestions welcome*
 
 ![graph](graph.png)
 
 
 # Install 
 
-(from scratch!)
+*...from scratch!*
 
 
     sudo apt-get install ruby
