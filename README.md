@@ -24,6 +24,8 @@ Uses KashFlow API Ruby Wrapper: https://github.com/pogodan/kashflow
 
     sudo gem install http
     
+    sudo gem install nokogiri
+    
 
 
 
