@@ -51,7 +51,7 @@ monthly.each do |x|
     data_csv = x.turnover + ',' + x.gross_profit + ',' + x.net_profit
     
     # Post to Emoncms and display responce
-    puts 'Emoncms responce: ' + HTTP.get('http://' + emoncms_host + '/input/post.json', :params => {:time => timestamp.to_s, :csv => data_csv, :node => emoncms_host, :apikey => emoncms_api}).to_s
+    puts 'Emoncms responce: ' + HTTP.get('http://' + emoncms_host + '/input/post.json', :params => {:time => timestamp.to_s, :csv => data_csv, :node => emoncms_feed_id, :apikey => emoncms_api}).to_s
     
     p '--------------------------'
 end
